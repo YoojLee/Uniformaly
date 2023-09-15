@@ -71,7 +71,7 @@ YOUR_MVTEC_PATH/
 - [MVTecAD](https://www.mvtec.com/company/research/datasets/mvtec-ad/) for multi-class classification
 
   We reorganized MVTecAD into three branches for multi-class setup:
-  - **ground_truth** (contains anomaly masks),
+  - **ground_truth** (contains anomaly masks)
   - **train** (contains all normal images)
   - **test** (contains all anomaly images)
 ```
