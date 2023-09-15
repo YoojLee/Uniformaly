@@ -190,7 +190,7 @@ bash run_clustering.sh
 ```
 
 ## 3. Citation & Acknowledgements
-Our repository is based on [Patchcore](https://github.com/amazon-science/patchcore-inspection).   
+Our repository is based on [PatchCore](https://github.com/amazon-science/patchcore-inspection).   
 Please consider citing them in your publications if they help your research.
 ```
 @inproceedings{roth2022towards,
