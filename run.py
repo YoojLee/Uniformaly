@@ -355,7 +355,7 @@ def build_model(
     params = locals()
 
     def get_uniformaly(input_shape, sampler, device):
-        loaded_selformalies = []
+        loaded_uniformalies = []
         backbone = uniformaly.encoder.load(backbone_name)
         backbone.name = backbone_name
 
@@ -378,8 +378,8 @@ def build_model(
             thres=thres,
             return_topk_index=return_topk_index,
             )
-        loaded_selformalies.append(uniformaly_instance)
-        return loaded_selformalies
+        loaded_uniformalies.append(uniformaly_instance)
+        return loaded_uniformalies
 
     return ("get_uniformaly", get_uniformaly)
 
